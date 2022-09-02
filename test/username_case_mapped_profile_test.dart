@@ -1,5 +1,5 @@
-import 'package:flutter_test/flutter_test.dart';
 import 'package:precis/precis.dart';
+import 'package:test/test.dart';
 
 import 'idempotency_helper.dart';
 

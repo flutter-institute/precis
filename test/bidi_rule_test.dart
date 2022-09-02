@@ -1,7 +1,6 @@
-import 'package:flutter_test/flutter_test.dart';
-
 import 'package:precis/precis.dart';
 import 'package:precis/src/profile.dart';
+import 'package:test/test.dart';
 
 void main() {
   void testException(String test, String expectedException) {

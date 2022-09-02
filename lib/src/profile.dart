@@ -1,7 +1,7 @@
 // ignore_for_file: non_constant_identifier_names, constant_identifier_names
 
-import 'package:flutter/material.dart';
-import 'package:flutter/semantics.dart';
+import 'package:characters/characters.dart';
+import 'package:meta/meta.dart';
 import 'package:precis/src/exceptions.dart';
 import 'package:precis/src/width_mapper.dart';
 import 'package:unorm_dart/unorm_dart.dart' as unorm;

@@ -1,4 +1,4 @@
-// ignore_for_file: constant_identifier_names, prefer_interpolation_to_compose_strings, non_constant_identifier_names
+// ignore_for_file: non_constant_identifier_names, constant_identifier_names
 
 part of '../character_data.dart';
 

@@ -1,5 +1,3 @@
-// ignore_for_file: constant_identifier_names
-
 import 'package:precis/src/character.dart';
 
 part 'character_data/character_data_00.dart';
