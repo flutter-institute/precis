@@ -1,3 +1,5 @@
+[![Codemagic build status](https://api.codemagic.io/apps/63332eac6e6d533914b542d6/63332eac6e6d533914b542d5/status_badge.svg)](https://codemagic.io/apps/63332eac6e6d533914b542d6/63332eac6e6d533914b542d5/latest_build)
+
 A dart implementation of the *"PRECIS Framework: Preparation, Enforcement, and Comparison of Internationalized Strings in Application Protocols"* and profiles thereof.
 
 This is a ported implementation based on the [rocks.xmpp.precis Project by Christian Schudt](https://bitbucket.org/sco0ter/precis/src/master/). Large portions of the character handling were ported from the Java SDK, since the functionality (while supported in the compiler/core) is not exposed to the dart language.
