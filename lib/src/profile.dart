@@ -2,11 +2,11 @@
 
 import 'package:characters/characters.dart';
 import 'package:meta/meta.dart';
-import 'package:precis/src/exceptions.dart';
-import 'package:precis/src/width_mapper.dart';
 import 'package:unorm_dart/unorm_dart.dart' as unorm;
 
 import 'character.dart';
+import 'exceptions.dart';
+import 'width_mapper.dart';
 
 part 'profiles/nickname.dart';
 part 'profiles/opaque_string.dart';

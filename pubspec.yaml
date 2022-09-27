@@ -1,6 +1,6 @@
 name: precis
 description: An implementation of the PRECIS Language Rules as defined by RFC 8265
-version: 0.0.2
+version: 0.0.3
 homepage:
 repository: https://github.com/flutter-institute/precis
 issue_tracker: https://github.com/flutter-institute/precis/issues

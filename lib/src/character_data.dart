@@ -1,4 +1,4 @@
-import 'package:precis/src/character.dart';
+import 'character.dart';
 
 part 'character_data/character_data_00.dart';
 part 'character_data/character_data_0e.dart';
