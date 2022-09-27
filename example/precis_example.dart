@@ -10,13 +10,13 @@ String validateUsername(String username) {
   return precis.usernameCaseMapped.prepare(username);
 }
 
-/// Format username for comparison and alidate that [username] does not contain invalid characters
-/// Returns the formatted string will all rules applied
-/// Throws [InvalidCodePointeException] if there are invalid characters
+/// Format username for comparison and validate that [username] does not contain invalid characters
+/// Returns the formatted string with all rules applied
+/// Throws [InvalidCodePointException] if there are invalid characters
 /// Throws [InvalidDirectionalityException] if there are invalid LTR and RTL character mixes
 /// Throws [EnforcementException] for other errors (like empty strings)
 String formatUsernameForDuplicateCheck(String username) {
-  return precis.usernameCaseMapped.prepare(username);
+  return precis.usernameCaseMapped.enforce(username);
 }
 
 /// Verify that the given passwords are the same. This is useful when changing the password.

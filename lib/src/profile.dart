@@ -76,7 +76,9 @@ abstract class PrecisProfile {
 
   /// Apply all the PRECIS rules to [input].
   /// This first applies the profile rules, then the behavioral rules as per RFC 7564 §7
-  /// Throws InvalidCodePointException if the input contains invalid code points
+  /// Throws InvalidCodePointException if the [input] contains invalid code points
+  /// Throws InvalidDirectionalityException if there are invalid LTR and RTL character mixes
+  /// Throws EnforcementException for other errors (like empty strings)
   /// Returns the formatted string
   String enforce(String input) {
     return prepare(

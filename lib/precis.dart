@@ -1,6 +1,8 @@
 library precis;
 
 export 'src/exceptions.dart';
+export 'src/profile.dart' show PrecisProfile;
+
 import 'src/profile.dart';
 
 /// The UsernameCaseMapped profile specified in RFC 8265

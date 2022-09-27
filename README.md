@@ -13,7 +13,7 @@ For example, when dealing with usernames and passwords. If strings are used for 
 This library supports the following specifications:
 - [RFC 8264](https://www.rfc-editor.org/rfc/rfc8264): PRECIS Framework: Preparation, Enforcement, and Comparison of Internationalized Strings in Application Protocols
 - [RFC 8265](https://www.rfc-editor.org/rfc/rfc8265): Preparation, Enforcement, and Comparison of Internationalized Strings Representing Usernames and Passwords
-- [RFC 8266](https://www.rfc-editor.org/rfc/rfc8266): Preparation, Enforcement, and Comparison of Internationalized Strings Representing Passwords
+- [RFC 8266](https://www.rfc-editor.org/rfc/rfc8266): Preparation, Enforcement, and Comparison of Internationalized Strings Representing Nicknames
 
 *PRECIS* obsoletes Stringprep ([RFC 3454](https://tools.ietf.org/html/rfc3454)).
 

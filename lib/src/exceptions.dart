@@ -28,7 +28,7 @@ class InvalidCodePointException extends PrecisException {
   String _getName() => 'InvalidCodePointException';
 }
 
-/// Thrown to indicate that a string had errors while enforcing it's conditions
+/// Thrown to indicate that a string had errors while enforcing its conditions
 class EnforcementException extends PrecisException {
   EnforcementException(super.message);
 
