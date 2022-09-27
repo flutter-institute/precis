@@ -1,4 +1,5 @@
 [![Codemagic build status](https://api.codemagic.io/apps/63332eac6e6d533914b542d6/63332eac6e6d533914b542d5/status_badge.svg)](https://codemagic.io/apps/63332eac6e6d533914b542d6/63332eac6e6d533914b542d5/latest_build)
+[![Pub Version](https://img.shields.io/pub/v/precis)](https://pub.dev/packages/precis)
 
 A dart implementation of the *"PRECIS Framework: Preparation, Enforcement, and Comparison of Internationalized Strings in Application Protocols"* and profiles thereof.
 
